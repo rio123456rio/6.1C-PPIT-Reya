@@ -8,7 +8,7 @@ pipeline {
         }
         stage("Unit and Integration Tests") {
             steps {
-                echo "Running unit and integration tests with automated tool: Cypress"
+                echo "Running unit and integration tests with automated tool: JUnit"
             }
             post {
                 success {
