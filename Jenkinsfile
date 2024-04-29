@@ -37,7 +37,7 @@ pipeline {
             post {
                 success {
                     emailext attachLog: true,
-                    subject: "Security Scan has been successful",
+                    subject: "Security Scan has been successful.Good",
                     body: "Successfully passed the security scan through Fortify Jenkins Plugin.",
                     to: "reyamary00@gmail.com"
                 }
