@@ -51,7 +51,7 @@ pipeline {
         }
         stage("Deploy to Staging") {
             steps {
-                echo "Deploying to AWS EC2 Instance"
+                echo "Deploying to AWS EC2 "
             }
         }
         stage("Integration Tests on Staging") {
